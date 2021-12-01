@@ -10,11 +10,13 @@ html{
     width: 80%;
     margin: 0 auto;
     height: 100%;
+    max-width: 1180px;
 }
 .contenitore-bot{
     width: 70%;
     margin: 0 auto;
     height: 100%;
+    max-width: 1180px;
 }
 .contenitore-footer{
     width: 80%;
@@ -118,6 +120,7 @@ header ul li a{
 .contenitore-items{
     min-height: 600px;
     margin-bottom: 200px;
+    max-width: 1180px;
 }
 .col{
     float: left;
@@ -145,6 +148,7 @@ header ul li a{
 .contenitore-items2{
     min-height: 600px;
     margin-bottom: 200px;
+    max-width: 1180px;
 }
 .col-left2{
     width: 30%;
