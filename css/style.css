@@ -16,6 +16,12 @@ html{
     margin: 0 auto;
     height: 100%;
 }
+.contenitore-footer{
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    padding-top: 60px;
+}
 .clearfix:after{
     content: "";
     display: table;
@@ -168,13 +174,46 @@ header ul li a{
 }
 .img-grande{
     text-align: center;
+    margin-bottom: 50px;
+}
+.stars{
+    background-image: url('../img/stars.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+}
+.stars h2{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+}
+.btn-bot{
+    background-color: #7085d5
+    ;
+    border-radius: 40px;
+    text-decoration: none;
+    padding: 16px 32px;
+    color: white;
+    font-weight: 700;
+}
+.btn1{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+    margin-bottom: 200px;
 }
 
 
 /* footer */
 footer{
-    background-color: grey;
+    background-color: #23272a;
+    height: 500px;
 }
+.contenitore-footer h2{
+    color: #7085d5;
+    font-size:40px;
+}
+
 
 
 
