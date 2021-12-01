@@ -16,7 +16,6 @@ html{
     width: 70%;
     margin: 0 auto;
     height: 100%;
-    max-width: 1180px;
 }
 .contenitore-footer{
     width: 80%;
@@ -120,7 +119,7 @@ header ul li a{
 .contenitore-items{
     min-height: 600px;
     margin-bottom: 200px;
-    max-width: 1180px;
+    margin: 100px auto;
 }
 .col{
     float: left;
@@ -142,13 +141,15 @@ header ul li a{
     font-size: 20px;
     line-height: 30px;
 }
+img.img{
+    object-fit: cover;
+}
 
 
 
 .contenitore-items2{
     min-height: 600px;
     margin-bottom: 200px;
-    max-width: 1180px;
 }
 .col-left2{
     width: 30%;
@@ -166,6 +167,11 @@ header ul li a{
 .col-right2{
     margin: 0 auto;
 }
+img.img2{
+    object-fit: cover;
+}
+
+
 .text-grande h1{
     text-align: center;
     font-size: 60px;
