@@ -131,7 +131,7 @@ main .contenitore1 .testo p{
 
 main .contenitore2{
     margin-top: 150px;
-    margin-right: 250px;
+    margin-right: 350px;
     margin-bottom: 400px;
     vertical-align: middle;
     min-height: 450px;
@@ -153,8 +153,22 @@ main .contenitore2 .testo h1{
 main .contenitore2 .testo p{
     line-height: 25px;
 }
-
-
+.contenitore3{
+    width: 80%;
+    min-height: 600px;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+main .contenitore3 .testo{
+    text-align: center;
+}
+.contenitore3 .big-img{
+    padding-left: 18%;
+}
+.contenitore3 p{
+    width: 50%;
+    margin: 0 auto;
+}
 
 
 /* footer */
