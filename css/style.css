@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Helvetica, sans-serif;
+}
+.contenitore{
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+}
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.btn{
+    background-color: white;
+    border-radius: 40px;
+    text-decoration: none;
+    padding: 8px 16px;
+    color: black;
+    display: inline-block;
+    font-weight: 700;
+}
+.btn.btn-big{
+    padding: 16px 32px;
+    color: black;
+}
+.btn.btn-black{
+    background-color: #222;
+    color: white;
+}
+
+
+/* header */
+header{
+    background-color: #255ee9;
+    line-height: 100px;
+    height: 100px;
+}
+.debug{
+    height: 500px;
+}
+#logo{
+    float: left;
+    width: 15%;
+}
+header nav{
+    float: left;
+    width: 70%;
+    text-align: center;
+    
+}
+header nav ul li{
+    display: inline-block;
+}
+header ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+#login{
+    float: right;
+    width: 15%;
+    text-align: right;
+}
+#logo img{
+    vertical-align: middle;
+}
+#login .btn{
+    display: inline;
+    font-size: 15px;
+}
+
+
+/* jumbotrone */
+#jumbotron{
+    background-image: url("../img/jumbo.png");
+    min-height: 430px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+#jumbotron .contenitore{
+    max-width: 780px;
+    text-align: center;
+}
+#jumbotron .contenitore h1{
+    margin-bottom: 40px;
+    padding-top: 50px;
+    font-size: 60px;
+}
+#jumbotron .contenitore p{
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+#jumbotron .contenitore a.btn.btn-big {
+    margin-right: 20px;
+}
+
+
+/* main */
+main .contenitore{
+    margin-top: 150px;
+    margin-left: 250px;
+    vertical-align: middle;
+}
+main .contenitore .img-main{
+    float: left;
+}
+main .contenitore .testo{
+    width: 25%;
+    float: left;
+    padding-left: 150px;
+    padding-top: 30px;
+}
+main .contenitore .testo h1{
+    margin-bottom: 20px;
+    line-height: 38px;
+}
+main .contenitore .testo p{
+    line-height: 25px;
+}
+
+
+
+/* footer */
+footer{
+    background-color: grey;
+}
