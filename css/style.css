@@ -11,6 +11,11 @@ html{
     margin: 0 auto;
     height: 100%;
 }
+.contenitore-bot{
+    width: 70%;
+    margin: 0 auto;
+    height: 100%;
+}
 .clearfix:after{
     content: "";
     display: table;
@@ -105,8 +110,6 @@ header ul li a{
 
 /* main */
 .contenitore-items{
-    width: 70%;
-    margin: auto;
     min-height: 600px;
     margin-bottom: 200px;
 }
@@ -114,11 +117,10 @@ header ul li a{
     float: left;
 }
 .col-left{
-    width: 40%;
+    margin: 0 auto;
 }
 .col-right{
-    width: 60%;
-    padding-left: 300px;
+    width: 40%;
 }
 .col.col-right{
     padding-top: 30px;
@@ -135,28 +137,24 @@ header ul li a{
 
 
 .contenitore-items2{
-    width: 70%;
-    margin: auto;
     min-height: 600px;
     margin-bottom: 200px;
-    background-color: lightgray;
 }
-.col-right2{
-    width: 50%;
-    padding-right: 200px;
-    padding-left: 80px;
+.col-left2{
+    width: 30%;
+    padding-left: 100px;
     padding-top: 30px;
 }
-.col-right2 h1{
+.col-left2 h1{
     margin-bottom: 30px;
     font-size: 60px;
 }
-.col-right2 p{
+.col-left2 p{
     font-size: 20px;
     line-height: 30px;
 }
-.col-left2{
-    width: 50%;
+.col-right2{
+    margin: 0 auto;
 }
 
 
