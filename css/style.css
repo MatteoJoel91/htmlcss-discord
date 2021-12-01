@@ -103,27 +103,57 @@ header ul li a{
 
 
 /* main */
-main .contenitore{
+main .contenitore1{
     margin-top: 150px;
     margin-left: 250px;
+    margin-bottom: 400px;
     vertical-align: middle;
+    min-height: 450px;
 }
-main .contenitore .img-main{
-    float: left;
-}
-main .contenitore .testo{
-    width: 25%;
+main .contenitore1 .img-main{
     float: left;
     padding-left: 150px;
+}
+main .contenitore1 .testo{
+    width: 20%;
+    float: left;
+    padding-left: 60px;
     padding-top: 30px;
 }
-main .contenitore .testo h1{
+main .contenitore1 .testo h1{
     margin-bottom: 20px;
     line-height: 38px;
 }
-main .contenitore .testo p{
+main .contenitore1 .testo p{
     line-height: 25px;
 }
+
+
+main .contenitore2{
+    margin-top: 150px;
+    margin-right: 250px;
+    margin-bottom: 400px;
+    vertical-align: middle;
+    min-height: 450px;
+}
+main .contenitore2 .img-main{
+    float: right;
+    padding-left: 50px;
+}
+main .contenitore2 .testo{
+    width: 20%;
+    float: right;
+    padding-left: 60px;
+    padding-top: 30px;
+}
+main .contenitore2 .testo h1{
+    margin-bottom: 20px;
+    line-height: 38px;
+}
+main .contenitore2 .testo p{
+    line-height: 25px;
+}
+
 
 
 
