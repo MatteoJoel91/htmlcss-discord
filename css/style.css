@@ -119,21 +119,17 @@ header ul li a{
 .contenitore-items{
     min-height: 600px;
     margin-bottom: 200px;
-    margin: 100px auto;
-}
-.col{
-    float: left;
+    min-width: 1180px;
 }
 .col-left{
-    margin: 0 auto;
+    float: left;
 }
 .col-right{
-    width: 40%;
+    padding-top: 40px;
+    width: 30%;
+    float: right;
 }
-.col.col-right{
-    padding-top: 30px;
-}
-.col.col-right h1{
+.col-right h1{
     margin-bottom: 30px;
     font-size: 60px;
 }
@@ -141,20 +137,13 @@ header ul li a{
     font-size: 20px;
     line-height: 30px;
 }
-img.img{
-    object-fit: cover;
-}
-
-
-
-.contenitore-items2{
-    min-height: 600px;
-    margin-bottom: 200px;
-}
 .col-left2{
-    width: 30%;
-    padding-left: 100px;
-    padding-top: 30px;
+    padding-top: 40px;
+    width: 22%;
+    float: left;
+}
+.col-right2{
+    float: right;
 }
 .col-left2 h1{
     margin-bottom: 30px;
@@ -163,12 +152,6 @@ img.img{
 .col-left2 p{
     font-size: 20px;
     line-height: 30px;
-}
-.col-right2{
-    margin: 0 auto;
-}
-img.img2{
-    object-fit: cover;
 }
 
 
