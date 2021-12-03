@@ -67,7 +67,7 @@ header nav{
     float: left;
     width: 70%;
     text-align: center;
-    
+
 }
 header nav ul li{
     display: inline-block;
@@ -253,16 +253,6 @@ footer ul li a{
     text-align: left;
     color: #8ea1e1;
     text-align: justify;
-}
-
-.informazioni.box span{
-    color: white;
-}
-
-.informazioni.box .social{
-    color: white;
-    margin-right: 20px;
-    margin-top: 10px;
 }
 
 .distanza{
